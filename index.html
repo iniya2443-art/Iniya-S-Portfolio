@@ -6,7 +6,7 @@
 <title>Iniya S — UX/UI Designer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<!-- no google font needed for Times New Roman -->
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -19,7 +19,7 @@
     --surface: #f9fafb;
   }
   html { scroll-behavior: smooth; }
-  body { font-family: 'Inter', sans-serif; background: var(--white); color: var(--black); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  body { font-family: 'Times New Roman', Times, serif; background: var(--white); color: var(--black); line-height: 1.6; -webkit-font-smoothing: antialiased; }
 
   /* NAV */
   nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 40px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
@@ -123,10 +123,10 @@
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .form-group { display: flex; flex-direction: column; gap: 6px; }
   .form-group label { font-size: 0.72rem; font-weight: 600; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; }
-  .form-group input, .form-group textarea { padding: 11px 15px; border: 1.5px solid var(--border); border-radius: 10px; font-family: 'Inter', sans-serif; font-size: 0.875rem; color: var(--black); background: white; transition: border-color 0.2s; outline: none; resize: none; }
+  .form-group input, .form-group textarea { padding: 11px 15px; border: 1.5px solid var(--border); border-radius: 10px; font-family: 'Times New Roman', Times, serif; font-size: 0.875rem; color: var(--black); background: white; transition: border-color 0.2s; outline: none; resize: none; }
   .form-group input:focus, .form-group textarea:focus { border-color: var(--accent); }
   .form-group textarea { min-height: 110px; }
-  .btn-send { background: var(--black); color: white; border: none; padding: 13px 26px; border-radius: 10px; font-family: 'Inter', sans-serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: background 0.2s; align-self: flex-start; display: flex; align-items: center; gap: 8px; }
+  .btn-send { background: var(--black); color: white; border: none; padding: 13px 26px; border-radius: 10px; font-family: 'Times New Roman', Times, serif; font-size: 0.875rem; font-weight: 600; cursor: pointer; transition: background 0.2s; align-self: flex-start; display: flex; align-items: center; gap: 8px; }
   .btn-send:hover { background: var(--accent); }
   #cf-toast { display:none; margin-top:10px; background:#f0fdf4; border:1px solid #bbf7d0; color:#15803d; padding:11px 16px; border-radius:10px; font-size:0.82rem; font-weight:600; }
 
@@ -165,7 +165,7 @@
 
 <!-- NAV -->
 <nav>
-  <a href="#about" class="nav-logo">Iniya<span>.</span></a>
+  <a href="#about" class="nav-logo">Iniya S<span>.</span></a>
   <ul class="nav-links">
     <li class="hide-mob"><a href="#aboutme">About</a></li>
     <li class="hide-mob"><a href="#projects">Projects</a></li>
@@ -227,7 +227,7 @@
         <div class="about-meta">
           <div class="meta-item">📍 <span>Villupuram, Tamil Nadu</span></div>
           <div class="meta-item">🎓 <span>BBA — Thiruvalluvar University</span></div>
-          <div class="meta-item">✉️ <span>iniya2443@gmail.com</span></div>
+          <div class="meta-item">✉️ <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ef7f0f7e7ffacaaaaaddef9f3fff7f2b0fdf1f3">[email&#160;protected]</a></span></div>
         </div>
       </div>
     </div>
@@ -240,7 +240,7 @@
 <section id="projects">
   <div class="section-inner">
     <p class="section-label reveal">Work</p>
-    <h2 class="section-title reveal">My Projects</h2>
+    <h2 class="section-title reveal">Selected Projects</h2>
     <p class="section-sub reveal">Case studies that showcase my design thinking, research process, and ability to solve real user problems.</p>
     <div class="projects-grid">
       <a href="https://www.behance.net/gallery/235681093/CookedUp-ResipeDiscovery-Meal-Planning-Food-Delivery" target="_blank" class="project-card reveal">
@@ -320,24 +320,23 @@
       <div class="contact-left reveal">
         <p>I'm currently open to new opportunities — full-time roles, freelance projects, or just a friendly conversation about design. Feel free to reach out!</p>
         <div class="contact-items">
-          <a href="mailto:iniya2443@gmail.com" class="contact-item">
+          <a href="/cdn-cgi/l/email-protection#b5dcdbdcccd487818186f5d2d8d4dcd99bd6dad8" class="contact-item">
             <div class="contact-icon">✉️</div>
-            <div class="contact-item-text"><div class="label">Email</div><div class="value">iniya2443@gmail.com</div></div>
+            <div class="contact-item-text"><div class="label">Email</div><div class="value"><span class="__cf_email__" data-cfemail="1c757275657d2e28282f5c7b717d7570327f7371">[email&#160;protected]</span></div></div>
           </a>
           <a href="https://www.behance.net/iniyas1" target="_blank" class="contact-item">
             <div class="contact-icon">🎨</div>
             <div class="contact-item-text"><div class="label">Behance</div><div class="value">behance.net/iniyas1</div></div>
           </a>
-          <a href="https://www.linkedin.com/in/iniya-s-261b3632b/" class="contact-item">
-            <div class="contact-icon">✉️</div>
-            <div class="contact-item-text"><div class="label">Linkedin</div><div class="value">https://www.linkedin.com/in/iniya-s-261b3632b/</div></div>
+          <a href="https://www.linkedin.com/in/iniya-s-261b3632b/details/skills/" target="_blank" class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div class="contact-item-text"><div class="label">LinkedIn</div><div class="value">linkedin.com/in/iniya-s</div></div>
           </a>
-        </div>
- </a>
           <a href="tel:6379807465" class="contact-item">
             <div class="contact-icon">📞</div>
             <div class="contact-item-text"><div class="label">Phone</div><div class="value">6379807465</div></div>
           </a>
+        </div>
       </div>
       <div class="reveal">
         <div class="contact-form">
@@ -365,7 +364,7 @@
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   function sendMail() {
     const name = document.getElementById('cf-name').value.trim();
     const email = document.getElementById('cf-email').value.trim();
@@ -384,11 +383,4 @@
       if (entry.isIntersecting) { setTimeout(() => entry.target.classList.add('visible'), i * 80); }
     });
   }, { threshold: 0.1 });
-  reveals.forEach(el => observer.observe(el));
-  document.querySelectorAll('.hero-left > *, .hero-right > *').forEach((el, i) => {
-    el.style.opacity='0'; el.style.transform='translateY(20px)'; el.style.transition='opacity 0.5s ease, transform 0.5s ease';
-    setTimeout(() => { el.style.opacity='1'; el.style.transform='translateY(0)'; }, 100 + i*120);
-  });
-</script>
-</body>
-</html>
+  reveals.forEach(el =>
